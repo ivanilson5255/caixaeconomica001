@@ -1,0 +1,474 @@
+
+/* cabecalho */
+.cabecalho {
+    display: flex;
+    background-color: rgb(18, 18, 63);
+    width: 100%;
+    height: 70px;
+    border-radius: 7px;
+}
+.cabecalho img {
+    width: 40px;
+    height: 35px;
+    margin: 25px 0 0 40px;
+    opacity: 45%;
+}
+.cabecalho p {
+    margin: 35px 0 0 50px;
+    font-size: 32px;
+    font-style: italic;
+    font-family: Courier New, monospace	;
+}
+.cabecalho .banco {
+    color: darkgreen;
+}
+.cabecalho .brasileiro {
+    color: yellow;
+}
+/* agrupamentos */
+.quem-somos, .minha-casa, .antecipacao-fgts, .abono-salarial, .financiamentos, .emprestimos, .crediamigo, .consulta-de-cpf {
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+.quem-somos, .minha-casa, .consulta-de-cpf {
+    height: 350px;
+}
+.financiamentos, .crediamigo, .abono-salarial, .antecipacao-fgts, .menu {
+    height: 300px;
+}
+h2 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* menu */
+.menu-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.menu a {
+    color: blue;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 65px;
+}
+/* emprestimos */
+.emprestimos {
+    height: 250px;
+}
+/* tabela */
+table {
+    margin: 0 auto;
+    height: 300px;
+    font-size: 20px;
+    width: 470px;
+}
+table td, table th {
+    border: 1px solid black;
+    
+
+}
+
+.calendario-pis h2 {
+    text-align: center;
+}
+/* roda pe */
+footer {
+    border-top: 1px solid black;
+    height: 100px;
+    position: relative;
+}
+footer .display {
+    text-align: center;
+    padding-top: 40px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+.paragrafo p {
+    font-style: italic;
+    font-size: 30px;
+    font-family: Courier New, monospace;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+footer .creditos {
+    font-size: 11px;
+}
+footer .brasil {
+    color: darkgreen;
+}
+footer .todos {
+    color: darkorange;
+}
+.creditos {
+    text-align: center;
+    padding-top: 13px;
+} 
+
+
+
+/* resposividade  1052 de largura */
+@media  screen and (max-width:1052px) {
+    
+
+.minha-casa {
+    height: 400px;
+}
+}
+
+
+
+/* responsividade 925px de largura */
+@media  screen and (max-width:925px) {
+.quem-somos {
+        height: 400px;
+    }
+.emprestimos, .abono-salarial {
+    height: 270px;
+}
+footer a {
+    font-size: 16px;
+}
+.paragrafo p {
+    font-size: 22px;
+}
+footer .creditos {
+    font-size: 11px;
+}
+}
+
+
+/* responsividade 802px largura */
+@media screen and (max-width: 802px) {
+    
+ 
+.quem-somos {
+    height: 430px;
+}
+.menu a {
+    font-size: 28px;
+}
+.minha-casa {
+    height: 450px;
+}
+.antecipacao-fgts, .financiamentos, .crediamigo {
+    height: 340px;
+}
+.abono-salarial {
+    height: 310px;
+}
+.emprestimos {
+    height: 280px;
+}
+.consulta-de-cpf {
+    height: 390px;
+}
+footer a {
+    font-size: 14px;
+}
+.paragrafo p {
+    font-size: 20px;
+}
+}
+
+/* responsividade 747px */
+@media screen and (max-width: 747px) {
+.cabecalho p {
+    font-size: 25px;
+}
+p {
+    line-height: 27px;
+}
+.quem-somos {
+    height: 420px;
+}
+.antecipacao-fgts {
+    height: 365px;
+}
+.abono-salarial {
+    height: 305px;
+}
+.consulta-de-cpf {
+    height: 420px;
+}
+footer a {
+    font-size: 13px;
+}
+.paragrafo p {
+    font-size: 16px;
+}
+}
+
+
+/* responsividade 662px */
+@media  screen and (max-width:662px) {
+.cabecalho p {
+    font-size: 20px;
+}
+p {
+    line-height: 24px;
+}
+.menu a {
+    font-size: 21px;
+}
+.abono-salarial {
+    height: 320px;
+}
+.financiamentos {
+    height: 330px;
+}
+.emprestimos {
+    height: 320px;
+}
+.crediamigo {
+    height: 350px;
+}
+.consulta-de-cpf {
+    height: 390px;
+}
+footer a {
+    font-size: 12px;
+}
+.paragrafo p {
+    font-size: 15px;
+}
+footer .creditos {
+    font-size: 8px;
+}
+}
+
+/* responsividade 557 largura */
+@media screen and (max-width:557px) {
+.cabecalho p {
+    font-size: 17px;
+}
+h2 {
+    font-size: 25px;
+}
+p {
+    line-height: 21px ;
+}
+.menu a {
+    font-size: 19px;
+}
+.minha-casa {
+    height: 490px;
+}
+table {
+    width: 80%;
+}
+.financiamentos {
+    height: 360px;
+}
+.consulta-de-cpf {
+    height: 420px;
+}
+footer a {
+    font-size: 10px;
+}
+.paragrafo p {
+    font-size: 12px;
+}
+}
+
+/* responsividade 489 */
+@media screen and (max-width: 489px) {
+.cabecalho p {
+    font-size: 13px;
+} 
+.quem-somos {
+    height: 480px;
+}  
+.menu a {
+    font-size: 16px;
+}
+.antecipacao-fgts {
+    height: 380px;
+} 
+.paragrafo p {
+    font-size:  10px;
+}
+}
+
+/* responsividade 440px largura */
+@media screen and (max-width: 440px) {
+    
+
+.cabecalho p {
+    font-size: 11px;
+}
+p {
+    line-height: 19px;
+}
+.consulta-de-cpf {
+    height: 470px;
+}
+
+/* responsividade 434px */
+.minha-casa {
+    height: 550px;
+}
+.crediamigo {
+    height: 400px;
+}
+}
+
+/* responsividade 375 largura */
+@media screen and (max-width:375px) {
+.quem-somos {
+    height: 550px;
+}  
+.menu a {
+    font-size: 12px;
+}
+.minha-casa {
+    height: 600px;
+}
+.antecipacao-fgts {
+    height: 450px;
+}
+.abono-salarial {
+    height: 390px;
+}
+.financiamentos {
+    height: 420px;
+}
+.emprestimos {
+    height: 380px;
+}
+.crediamigo {
+    height: 450px;
+}
+.consulta-de-cpf {
+    height: 500px;
+}
+.paragrafo p {
+    font-size:8px ;
+}
+}
+
+/* responsividade 362px */
+@media screen and (max-width:362px) {
+.quem-somos {
+    height: 600px;
+}
+.consulta-de-cpf {
+    height: 530px;
+}    
+}
+
+/* responsividade 342px */
+@media screen and (max-width:342px) {
+.quem-somos {
+    height: 650px;
+}
+.minha-casa {
+    height: 670px;
+}
+.antecipacao-fgts {
+    height: 480px;
+}
+.abono-salarial {
+    height: 420px;
+}
+.financiamentos {
+    height: 450px;
+}
+.crediamigo {
+    height: 480px;
+}
+.consulta-de-cpf {
+    height: 580px;
+}
+}
+
+/* responsividade 308px */ 
+@media screen and (max-width:308px) {
+.cabecalho img {
+        height: 30px;
+}
+.cabecalho p {
+    font-size: 9px;
+}
+    .quem-somos {
+        height: 680px;
+}
+    .minha-casa {
+        height: 700px;
+}
+.antecipacao-fgts {
+    height: 500px;
+}
+.abono-salarial {
+    height: 450px;
+}    
+.financiamentos {
+    height: 490px;
+}
+.crediamigo {
+    height: 520px;
+} 
+.consulta-de-cpf {
+    height: 650px;
+}
+footer a {
+    font-size: 8px;
+}
+footer .creditos {
+    font-size: 7px;
+}
+.menu a {
+    font-size: 10px;
+}
+}
+
+
+/* responsividade 287px */
+@media screen and (max-width:287px) {
+p {
+    font-size: 17px;
+
+}
+}
+
+
+/* responsividade */
+@media screen and (max-width: 282px) {
+p {
+    font-size: 15px;
+}   
+}
+
+/* responsividade 247px */
+@media screen and (max-width: 247px) {
+p {
+    font-size: 13px;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
